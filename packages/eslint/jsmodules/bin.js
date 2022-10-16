@@ -1,1 +1,3 @@
-require("eslint/bin/eslint")
+const eslintBin = require("eslint/bin/eslint")
+
+module.exports = eslintBin

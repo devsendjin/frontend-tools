@@ -5,8 +5,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": "./jsmodules/index.js",
-    "./jsmodules": "./jsmodules/index.js",
-    "./jsmodules/bin": "./jsmodules/bin.js"
+    "./jsmodules": "./jsmodules/index.js"
   },
   "bin": {
     "devsendjin-eslint": "./jsmodules/bin.js"
