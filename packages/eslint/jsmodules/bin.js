@@ -1,3 +1,1 @@
-const eslintBin = require("eslint/bin/eslint")
-
-module.exports = eslintBin
+require("../node_modules/.bin/eslint")
