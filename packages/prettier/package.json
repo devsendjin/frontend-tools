@@ -1,0 +1,31 @@
+{
+  "name": "@devsendjin/prettier",
+  "version": "1.0.0",
+  "description": "Ready to use prettier config",
+  "scripts": {
+    "test": "prettier -v"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  },
+  "keywords": [
+    "javascript",
+    "prettier",
+    "prettierconfig",
+    "lint",
+    "config"
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": {
+    "name": "Anatoliy Skichko",
+    "email": "anatoliy.skichko.dev@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

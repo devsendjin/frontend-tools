@@ -1,7 +1,10 @@
 {
   "name": "@devsendjin/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Ready to use eslint configs",
+  "scripts": {
+    "test": "prettier -v"
+  },
   "exports": {
     "./package.json": "./package.json",
     ".": "./jsmodules/index.js",
@@ -24,8 +27,10 @@
   },
   "license": "MIT",
   "peerDependencies": {
+    "@devsendjin/prettier": "workspace:*",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-config-prettier": "^8.5.0"
   }
 }
