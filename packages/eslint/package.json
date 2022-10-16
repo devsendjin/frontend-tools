@@ -8,7 +8,7 @@
     "./jsmodules": "./jsmodules/index.js"
   },
   "bin": {
-    "devsendjin-eslint": "./node_modules/eslint/bin/eslint.js"
+    "devsendjin-eslint": "./jsmodules/bin.js"
   },
   "keywords": [
     "javascript",
