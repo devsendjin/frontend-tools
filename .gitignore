@@ -1,0 +1,8 @@
+# gitignore patterns
+# https://git-scm.com/docs/gitignore
+
+.DS_*
+.idea/
+.vscode/
+node_modules/
+packages/react/dist/
